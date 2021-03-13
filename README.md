@@ -55,7 +55,7 @@ Basic Flow of the program :-
 1. The encodervalue is published from Arduino node. 
 2. node_motor subscribes to /encoderValue and /desiredPosition.
 3. Now we Publish the desired angle/position to /desiredPosition.
-4. These inputs are provided to the PID controller implemented in the **node_motor.py** where Setpoint is /desiredPosition** and feedback is /encodervalue.
+4. These inputs are provided to the PID controller implemented in the **node_motor.py** where Setpoint is **/desiredPosition** and feedback is /encodervalue.
 5. The PID controller gives PWM_value as output to control the motor direction and speed at a given refresh rate.
 6. This PWM value is published to /PWM_value and Arduino node subscribes to the /PWM_value and accordingly give commands to the motor driver.
 
