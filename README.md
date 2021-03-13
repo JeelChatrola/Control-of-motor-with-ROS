@@ -50,6 +50,8 @@ Node_motor.py :-
 
 Below is the **rqt_graph** of the program
 
+![rosgraph](https://user-images.githubusercontent.com/56308805/111037012-3fede880-8448-11eb-894a-403167de0a31.png)
+
 Basic Flow of the program :-
 
 1. The encodervalue is published from Arduino node. 
